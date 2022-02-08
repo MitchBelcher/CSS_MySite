@@ -7,7 +7,17 @@ p {
 body {
   margin: 0;
 }
-div {
+.topContainer {
   background-color: #F7D59C;
   margin: 0;
+}
+.middleContainer {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+.bottomContainer {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
 }
