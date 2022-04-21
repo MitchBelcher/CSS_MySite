@@ -11,6 +11,8 @@ body {
 .topContainer {
   background-color: #F7D59C;
   margin: 0;
+  position: relative;
+  padding-top: 100px;
 }
 .middleContainer {
   background-color: red;
@@ -27,3 +29,19 @@ body {
    text-decoration-style: wavy;
    text-shadow: black;
  }
+
+.bottom-cloud {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+  max-width: 100px;
+  max-height: 100px;
+}
