@@ -6,6 +6,7 @@ p {
 }
 body {
   margin: 0;
+  text-align: center;
 }
 .topContainer {
   background-color: #F7D59C;
