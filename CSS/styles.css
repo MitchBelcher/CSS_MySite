@@ -1,47 +1,156 @@
 h1 {
-  margin: 0;
+  margin: 50px auto 0 auto; /* Circle declaration for margin. TOP, RIGHT, BOTTOM, LEFT */
+  font-family: 'Dancing Script', serif;
+  font-size: 5.63rem; /* 16px == 100% == 1em == 1rem */
+  color: #66BFBF;
+  font-weight: bold;
 }
+
+h2 {
+  font-size: 1.75rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #66BFBF;
+}
+
 p {
   margin: 0;
 }
+
 body {
   margin: 0;
   text-align: center;
+  font-family: 'Merriweather Sans', serif;
 }
+
+hr {
+  border: none; /* This is done first to remove default hr styling applied by browsers. */
+  border-top: 10px dotted grey;
+  width: 5%;
+}
+
 .topContainer {
   background-color: #F7D59C;
   margin: 0;
   position: relative;
   padding-top: 100px;
 }
-.middleContainer {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+
+.csharp_skill {
+  width: 50%;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: left;
+  line-height: 2;
 }
-.bottomContainer {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
+
+.c_plus_plus_skill {
+  width: 50%;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: left;
+  line-height: 2;
 }
- .pro {
-   text-decoration: underline;
-   text-decoration-style: wavy;
-   text-shadow: black;
- }
+
+.middleContainer {}
+
+.bottomContainer {}
+
+.pro {}
 
 .bottom-cloud {
   position: absolute;
   max-width: 100px;
   max-height: 100px;
-  left: 300px;
-  bottom: 300px;
+  left: 800px;
+  bottom: 450px;
 }
 
 .top-cloud {
   position: absolute;
-  top: 50px;
-  right: 300px;
+  top: 100px;
+  right: 700px;
   max-width: 100px;
   max-height: 100px;
+}
+
+.mountain {
+  width: 25%;
+  height: 25%;
+}
+
+.c_plus_plus_img {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.csharp_img {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile_picture {
+  margin: 2% auto 1% auto;
+  width: 13%;
+  height: 13%;
+  border-radius: 50%;
+}
+
+.profile {
+  margin-bottom: 2%;
+}
+
+.skills {
+  margin: 2% auto 10% auto;
+}
+
+.contact-me {
+  margin: 3% auto 3% auto;
+}
+
+.footer {
+  padding: 1.5%;
+  background-color: #F7D59C;
+  line-height: 3;
+}
+
+.footer-link {
+
+}
+
+.btn {
+  background: #F7D59C;
+  background-image: -webkit-linear-gradient(top, #F7D59C, #d1a660);
+  background-image: -moz-linear-gradient(top, #F7D59C, #d1a660);
+  background-image: -ms-linear-gradient(top, #F7D59C, #d1a660);
+  background-image: -o-linear-gradient(top, #F7D59C, #d1a660);
+  background-image: linear-gradient(to bottom, #F7D59C, #d1a660);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  -webkit-box-shadow: 4px 7px 12px #666666;
+  -moz-box-shadow: 4px 7px 12px #666666;
+  box-shadow: 4px 7px 12px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2%;
+}
+
+.btn:hover {
+  background: #db911b;
+  background-image: -webkit-linear-gradient(top, #db911b, #ffd18c);
+  background-image: -moz-linear-gradient(top, #db911b, #ffd18c);
+  background-image: -ms-linear-gradient(top, #db911b, #ffd18c);
+  background-image: -o-linear-gradient(top, #db911b, #ffd18c);
+  background-image: linear-gradient(to bottom, #db911b, #ffd18c);
+  text-decoration: none;
 }
