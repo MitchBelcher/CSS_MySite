@@ -10,6 +10,7 @@ h2 {
   font-size: 1.75rem;
   color: #66BFBF;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -18,18 +19,36 @@ h3 {
 
 p {
   margin: 0;
+  line-height: 2;
 }
 
 body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather Sans', serif;
+  color: #40514E
 }
 
 hr {
   border: none; /* This is done first to remove default hr styling applied by browsers. */
   border-top: 10px dotted grey;
-  width: 5%;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  font-family: 'Merriweather Sans', serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.copywrite {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0px;
 }
 
 .topContainer {
@@ -43,17 +62,17 @@ hr {
   width: 50%;
   margin: 6.25rem auto 6.25rem auto;
   text-align: left;
-  line-height: 2;
 }
 
 .c_plus_plus_skill {
   width: 50%;
   margin: 6.25rem auto 6.25rem auto;
   text-align: left;
-  line-height: 2;
 }
 
-.middleContainer {}
+.middleContainer {
+  margin: 100px auto;
+}
 
 .bottomContainer {}
 
@@ -113,15 +132,18 @@ hr {
   margin: 3% auto 3% auto;
 }
 
+.contact-message {
+  width: 300px;
+  margin: 40px auto 60px;
+}
+
 .footer {
   padding: 1.5%;
   background-color: #F7D59C;
   line-height: 3;
 }
 
-.footer-link {
-
-}
+.footer-link {}
 
 .btn {
   background: #F7D59C;
@@ -136,13 +158,12 @@ hr {
   -webkit-box-shadow: 4px 7px 12px #666666;
   -moz-box-shadow: 4px 7px 12px #666666;
   box-shadow: 4px 7px 12px #666666;
-  font-family: Georgia;
+  font-family: 'Press Start 2P', serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   display: inline-block;
-  margin-top: 2%;
 }
 
 .btn:hover {
@@ -153,4 +174,9 @@ hr {
   background-image: -o-linear-gradient(top, #db911b, #ffd18c);
   background-image: linear-gradient(to bottom, #db911b, #ffd18c);
   text-decoration: none;
+}
+
+.intro {
+  width: 30%; /* Keep bio from being one-line */
+  margin: auto; /* Make sure bio is centered in the div */
 }
